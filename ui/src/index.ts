@@ -9,15 +9,15 @@ export default definePlugin({
     {
       parentName: "Root",
       route: {
-        path: "/example",
-        name: "Example",
+        path: "/tgBotNotifyConfig",
+        name: "BotConfig",
         component: HomeView,
         meta: {
-          title: "示例页面",
+          title: "TG推送设置",
           searchable: true,
           menu: {
-            name: "示例页面",
-            group: "示例分组",
+            name: "TG推送设置",
+            group: "工具",
             icon: markRaw(IconPlug),
             priority: 0,
           },
